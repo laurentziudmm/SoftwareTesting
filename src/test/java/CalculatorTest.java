@@ -78,22 +78,17 @@ public class CalculatorTest {
         System.out.println(clock);
         assert  clock.equals(" Good Evening ");
     }
-
     @Test(expected = ArithmeticException.class)
     public void testDivideBy0 () {
         int result = calculator.divide(10,0);
         System.out.println(result);
     }
-
-
     @Test
     public void testDivide () {
         int result = calculator.divide(10,2);
         System.out.println(result);
         assert result == 5;
     }
-
-
     @Test
     public void testMultiply () {
         int result = calculator.multiply(10,5);
