@@ -94,7 +94,6 @@ public class CalculatorTest {
     }
 
 
-
     @Test
     public void testMultiply () {
         int result = calculator.multiply(10,5);
