@@ -41,7 +41,6 @@ public class CalculatorTest {
     @Parameterized.Parameter(2)
     public int expectedResult;
 
-
     @Test
     public void addTest () {
         //given
@@ -51,19 +50,15 @@ public class CalculatorTest {
         //then
         assert sum == expectedResult;
     }
-
     @Test
     public void diffTest () {
-
         int diff = calculator.diff(10,5);
         System.out.println("diff = " + diff);
-
         assert  diff ==5;
     }
 
     @Test
     public void clockTestMorning () {
-
         //given
         //when
         String clock = calculator.clock(11);
@@ -71,7 +66,6 @@ public class CalculatorTest {
         //then
         assert clock.equals(" Good Morning ");
     }
-
     @Test
     public void clockTestEvening () {
         String clock = calculator.clock(18);
@@ -94,8 +88,6 @@ public class CalculatorTest {
         int result = calculator.multiply(10,5);
         assert result == 50;
     }
-
-
     @Test
     public void testDivideBy0WithMessage (){
         //given
