@@ -72,6 +72,23 @@ public class CalculatorTest {
         System.out.println(clock);
         assert  clock.equals(" Good Evening ");
     }
+    @Test
+    public void clock2TestMorning () {
+        //given
+        //when
+        String clock = calculator.clock2(11);
+        System.out.println(clock);
+        //then
+        assert clock.equals(" Good Morning ");
+    }
+    @Test
+    public void clock2TestEvening () {
+        String clock = calculator.clock2(20);
+        System.out.println(clock);
+        assert  clock.equals(" Good Evening ");
+    }
+
+
     @Test(expected = ArithmeticException.class)
     public void testDivideBy0 () {
         int result = calculator.divide(10,0);

@@ -16,6 +16,15 @@ public class Calculator {
         }
     }
 
+    public String clock2 (int time){
+        if (time < 18) {
+            return " Good Morning " ;
+        } else {
+            return " Good Evening " ;
+        }
+    }
+
+
     public int divide (int x,int y) {
         return x / y;
     }
