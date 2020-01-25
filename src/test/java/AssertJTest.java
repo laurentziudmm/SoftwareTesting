@@ -4,6 +4,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class AssertJTest {
 
+//learn about Test with AssertJ
     @Test
     public void testAssertJ() {
         String text = "abc";
