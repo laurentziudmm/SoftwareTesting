@@ -19,6 +19,8 @@ public class AssertJTest {
                 .doesNotContain("xyz");
     }
 
+    //AssertJ2
+
     @Test
     public void testAssertJ2() {
         String text = "abcdef";
