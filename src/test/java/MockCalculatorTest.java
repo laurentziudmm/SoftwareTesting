@@ -6,6 +6,8 @@ import org.mockito.runners.MockitoJUnitRunner;
 
 import static org.mockito.Mockito.when;
 
+//learn about mockito and how it works
+
 @RunWith(MockitoJUnitRunner.class)
 public class MockCalculatorTest {
 
